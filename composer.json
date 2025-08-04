@@ -3,6 +3,8 @@
     "description": "Use Gravatars with Filament",
     "keywords": [
         "vblinden",
+        "gravatar",
+        "filament",
         "filament-gravatar-provider"
     ],
     "homepage": "https://github.com/vblinden/filament-gravatar-provider",
@@ -15,7 +17,8 @@
         }
     ],
     "require": {
-        "php": "^8.4"
+        "php": "^8.4",
+        "filament/filament": "^3.3|^4.0"
     },
     "require-dev": {
         "pestphp/pest": "^3.0",
@@ -24,17 +27,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Vblinden\\FilamentGravatarProvider\\": "src"
+            "Vblinden\\Filament\\Gravatar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vblinden\\FilamentGravatarProvider\\Tests\\": "tests"
+            "Vblinden\\Filament\\Gravatar\\Tests\\": "tests"
         }
     },
     "scripts": {
         "test": "vendor/bin/pest",
-            "test-coverage": "vendor/bin/pest --coverage",
+        "test-coverage": "vendor/bin/pest --coverage",
         "format": "vendor/bin/pint"
     },
     "config": {
