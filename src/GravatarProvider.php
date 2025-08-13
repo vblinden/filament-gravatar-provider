@@ -10,6 +10,6 @@ class GravatarProvider implements AvatarProvider
 {
     public function get(Model|Authenticatable $record): string
     {
-        return Gravatar::url($record->email);
+        return Gravatar::url($record->email ?? $record->name);
     }
 }
