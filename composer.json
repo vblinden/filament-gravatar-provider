@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "filament/filament": "^3.3|^4.0"
+        "filament/filament": "^5.2.0"
     },
     "require-dev": {
         "pestphp/pest": "^3.0",
