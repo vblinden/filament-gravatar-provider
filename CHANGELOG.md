@@ -2,6 +2,10 @@
 
 All notable changes to `filament-gravatar-provider` will be documented in this file.
 
+## v1.0.2 - 2026-02-16
+
+- Support Filament v5
+
 ## v1.0.1 - 2025-01-27
 
 - **Added**: Fallback to name field when email is not available in GravatarProvider
